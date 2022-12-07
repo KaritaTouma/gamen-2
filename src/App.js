@@ -83,7 +83,7 @@ function createData(name, message) {
 }
 
 const rows = [
-  createData('Aさん', 'ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ'),
+  createData('Aさん', 'あああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ'),
   createData('Bさん', 'I like pancakes.'),
   createData('Cさん', 'ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc'),
   createData('Dさん', ),
