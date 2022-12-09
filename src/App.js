@@ -53,14 +53,14 @@ function App() {
   return (
     <div className="formContainer">
       <form onSubmit={handleSubmit}>
-        <h1>ログイン画面</h1>
+        <h1>ログイン画面a</h1>
         <hr />
         <div className="uiForm">
           <div className="formField">
           </div>
           <p className="errorMsg">{formErros.username}</p>
           <div className="formField">
-            <label>メールアドレス</label>
+            <label>メールアドレスtest</label>
             <input
               type="text"
               name="mailAddress"
