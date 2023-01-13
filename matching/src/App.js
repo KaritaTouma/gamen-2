@@ -10,7 +10,7 @@ export default function TitlebarBelowImageList() {
     <ImageList sx={{ width: 700, height: 650 }}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
-          <img
+          <img alt="item"
             srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 3x`}
           />
           <ImageListItemBar
@@ -37,26 +37,26 @@ const itemData = [
   },
   {
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFphNqUR-Emc4RuG78FSYBerOyndLRfpu3XA&usqp=CAU',
-    title: '○○さん',
+    title: 'Aさん',
   },
   {
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2o8oSUc3reltJLKYhaMVz1Ot10STf3A125Q&usqp=CAU',
-    title: '○○さん',
+    title: 'Bさん',
   },
   {
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4BHERQLjFzhTlJl_sDNPRBHWyAFa2W6rjYQ&usqp=CAU',
-    title: '○○さん',
+    title: 'Cさん',
   },
   {
     img: 'https://www.bing.com/th/id/OIP.8Dl9-ZdAoViiuqwQgHDfEwHaEK?w=308&h=180&c=7&r=0&o=5&pid=1.7',
-    title: '○○さん',
+    title: 'Dさん',
   },
   {
     img: 'https://www.bing.com/th/id/OIP.RM1F7YyBVIhrYuHvSiSdhAHaEJ?w=321&h=180&c=7&r=0&o=5&pid=1.7',
-    title: '○○さん',
+    title: 'Eさん',
   },
   {
     img: 'https://www.bing.com/th/id/OIP.acXJy0AxSFSrB8aAzbHh2wHaFj?w=235&h=180&c=7&r=0&o=5&pid=1.7',
-    title: '○○さん',
+    title: 'Fさん',
   },
 ];
