@@ -15,8 +15,11 @@ import FirstPageIcon from '@mui/icons-material/FirstPage';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import LastPageIcon from '@mui/icons-material/LastPage';
+import PersonIcon from '@mui/icons-material/Person';
+
 
 function TablePaginationActions(props) {
+
   const theme = useTheme();
   const { count, page, rowsPerPage, onPageChange } = props;
 
@@ -82,12 +85,13 @@ function createData(name, message) {
   return { name, message };
 }
 
-const rows = [
+
+var rows = [
   createData('Aさん', 'ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ'),
   createData('Bさん', 'I like pancakes.'),
   createData('Cさん', 'ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc'),
-  createData('Dさん', ),
-  createData('Eさん', 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee'),
+  createData('Dさん', '...'),
+  createData('Eさん', 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeff'),
   createData('Fさん', ),
   createData('Gさん', ),
   createData('Hさん', ),
@@ -96,6 +100,7 @@ const rows = [
   createData('Kさん', ),
   createData('Lさん', ),
   createData('Mさん', ),
+  createData('Nさん', ),
 ]
 
 export default function CustomPaginationActionsTable() {
@@ -125,6 +130,9 @@ export default function CustomPaginationActionsTable() {
           ).map((row) => (
             <TableRow key={row.name}>
               <TableCell component="th" scope="row">
+              <a href="abc.html"> 
+              <PersonIcon sx={{ fontSize: 50 }} />
+              </a>
                 {row.name}
               </TableCell>
               <TableCell style={{ width: 160 }} align="right">
