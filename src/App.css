@@ -1,3 +1,21 @@
 body{
   background: linear-gradient(1000deg, rgb(250, 250, 253) 0%, rgb(208, 208, 245) 35%, rgb(234, 249, 252) 100%);
 }
+
+button1 {
+  color: #fff;
+  border-top: 4px solid #48ecc4;
+  border-right: 4px solid #0a5f4a;
+  border-bottom: 4px solid #0f745b;
+  border-left: 4px solid #8cf9de;
+  border-radius: 0;
+  background: #11a37f;
+}
+
+button1:hover {
+  color: #fff;
+  border-top: 4px solid #0f745b;
+  border-right: 4px solid #8cf9de;
+  border-bottom: 4px solid #48ecc4;
+  border-left: 4px solid #0a5f4a;
+}

@@ -69,7 +69,7 @@ function TablePaginationActions(props) {
       >
         {theme.direction === 'rtl' ? <FirstPageIcon /> : <LastPageIcon />}
       </IconButton>
-      <button>戻る</button>
+      <button1>戻る</button1>
     </Box>
     
   );
